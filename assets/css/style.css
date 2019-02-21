@@ -32,7 +32,8 @@ header {
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: bold;
     float: left;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
@@ -93,9 +94,11 @@ a {
 
 h2 {
     color: #4aaaa5;
+    font-size: 24px;
+    font-weight: bold;
 }
 
-img {
+.profile_pic {
     height: auto;
     width: 10%;
     min-width: 100px;
@@ -129,7 +132,7 @@ input {
     color: white;
 }
 
-.portfolio_button {
+.box {
     position: relative;
     width: 15vw;
     height: 15vw;
@@ -138,11 +141,17 @@ input {
     float: left;
 }
 
-.portfolio_image{
+/* .box {
     position: absolute;
     width: 100%;
     height: 100%;
+} */
+
+.portfolio_img{
+    object-fit: contain;    
+    overflow: hidden;
     z-index: 1;
+    margin: 0;
 }
 
 .portfolio_title {
