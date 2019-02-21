@@ -1,45 +1,62 @@
 <!DOCTYPE html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Emile Blouin's Portfolio</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="#">
+    <link rel="icon" href="assets/images/favicon.jpg">
+
 </head>
 
 <body>
 
-    <dev class="header">
-        <dev class="name_container">
+    <div class="header">
+        <div class="name_container">
             <h1>Emile Blouin</h1>
-        </dev>
-        <dev class="links">
-            <a href="about.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
-        </dev>
+        </div>
+        <div class="links">
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>   
+        </div>
 
 
-    </dev>
+    </div>
 
-    <dev class="container">
-        <dev class="main_top">
+    <div class="container">
+        <div class="main_top">
             <h2>Contact</h2>
-        </dev>
+        </div>
 
-        <dev class="main_body">
-            <img src="#" placeholder="Emile" />
-            <p class="short_bio">
-                    <!-- Here's a paragraph or two about me! -->
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tristique purus at tempus ornare. Aliquam rutrum dolor erat, eget blandit velit rhoncus vitae. Fusce mattis accumsan justo, consequat congue sapien condimentum at. Pellentesque condimentum eget ante quis faucibus. Maecenas in cursus eros. Duis tempor fringilla vestibulum. Suspendisse eget ex quis enim auctor congue.
+        <hr>
 
-    Nulla ut fermentum augue, et euismod ante. Etiam quis purus facilisis ligula blandit rhoncus sed eu turpis. Donec id mauris sit amet elit eleifend aliquam. Nullam eu interdum leo. Suspendisse gravida sit amet nisi at blandit. Phasellus vestibulum sapien egestas erat fermentum ullamcorper. Aenean auctor hendrerit augue maximus fermentum.
-            </p>
-         </dev>
-    </dev>
+        <div class="main_body">
+            <form>
+                Name:
+                <br>
+                <input type="text" name="name" placeholder="John Smith" required>
+                <br>
+                Email:
+                <br>
+                <input type="text" name="email" placeholder="example@gmail.com" required>
+                <br>
+                Message:
+                <br>
+                <input type="text" name="message" id="message_box" required>
+                <br>
+                <input type="submit" value="Submit" id="submit_button">
+            </form>
+         </div>
+    </div>
 
-    <dev class="footer">
+    <div class="footer">
         <!-- This element is basically just here for style purposes -->
-    </dev>
+    </div>
 
 
 </body>
+
+</html>
