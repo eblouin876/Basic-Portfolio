@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/dynamic-style.png");
+}
+
+
+hr {
+    clear: both;
+    color: #dddddd;
+    margin: 5px;
+}
+
+
+/* Styling for the top menu bar */
+
+.header {
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    height: 67px;
+}
+
+.name_container {
+    float:left;
+    background: #4aaaa5;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+.middle_link {
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header {
+    font-size: 24px;
+    float: left;
+    color: white;
+}
+
+
+li {
+    float: right;
+    padding: 5px;
+    list-style-type: none;  
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.links {
+    margin-right: 10%;
+}
+
+
+/* Main Body Styling */
+.container {
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 2.5%;
+    background: #ffffff;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    overflow: auto;
+
+}
+
+img {
+    height: auto;
+    width: 10%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/* Footer Styling */
+
+footer {
+    width: 100%;
+    background-color: #666666;
+    bottom: 0;
+    position: fixed;
+    padding: 30px;
+    border-top: 10px solid #4aaaa5;
+}
