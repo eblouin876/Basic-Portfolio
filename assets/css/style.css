@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -13,37 +14,42 @@ body {
 hr {
     clear: both;
     color: #dddddd;
-    margin: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 /* Styling for the top menu bar */
 
-.header {
+header {
+    position: relative;
     background: #ffffff;
     border-bottom: 1px solid #cccccc;
     height: 67px;
+    width: 100%;
+    position: fixed;
+    top: 0;
 }
 
-.name_container {
-    float:left;
-    background: #4aaaa5;
-    padding: 20px;
-    margin-left: 10%;
-}
-
-.middle_link {
-    border-left: 1px solid #777777;
-    border-right: 1px solid #777777;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-header {
+h1 {
     font-size: 24px;
     float: left;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.name_container {
+    position: absolute;;
+    float:left;
+    background: #4aaaa5;
+    margin-left: 10%;
+    height: 100%;
+}
+
+.links {
+    margin-right: 10%;
 }
 
 ul {
@@ -64,8 +70,11 @@ a {
     color: #777777;
 }
 
-.links {
-    margin-right: 10%;
+.middle_link {
+    border-left: 1px solid #777777;
+    border-right: 1px solid #777777;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 
@@ -74,9 +83,9 @@ a {
     clear: both;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 2.5%;
+    margin-top: 100px;
     background: #ffffff;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid #dddddd;
     overflow: auto;
 
@@ -99,6 +108,53 @@ img {
     font-size: 18px;
 }
 
+form {
+    font-size: 18px;
+}
+
+input {
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+}
+
+#message_box {
+    height: 200px;
+}
+
+#submit_button {
+    width: 100px;
+    height: 40px;
+    background-color: #4aaaa5;
+}
+
+.portfolio_button {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    padding: 2.5%;
+    background-color: blue;
+    float: left;
+}
+
+.portfolio_image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.portfolio_title {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    background-color: #4aaaa5;
+    z-index: 2;
+    bottom: 10px;
+    right: 0px;
+    text-align: center;
+}
+
 
 /* Footer Styling */
 
@@ -107,11 +163,8 @@ footer {
     background-color: #666666;
     bottom: 0;
     position: fixed;
-    padding: 30px;
+    padding: 25px;
     border-top: 10px solid #4aaaa5;
-}
-
-p {
     text-align: center;
     font-size: 12px;
 }
