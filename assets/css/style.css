@@ -70,6 +70,9 @@ a {
     text-decoration: none;
     color: #777777;
 }
+a:hover {
+    color: purple;
+}
 
 .middle_link {
     border-left: 1px solid #777777;
