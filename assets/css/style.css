@@ -82,7 +82,9 @@ a {
 /* Main Body Styling */
 .container {
     clear: both;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
     background: #ffffff;
     padding: 20px;
     border: 1px solid #dddddd;
@@ -99,7 +101,7 @@ h2 {
 .profile_pic {
     height: auto;
     width: 10%;
-    min-width: 100px;
+    min-width: 200px;
     float: left;
     margin-right: 10px;
 }
@@ -122,11 +124,6 @@ input {
 
 #message_box {
     height: 200px;
-    text-align: left;
-    width: 100%;
-    font-size: 14px;
-    max-width: 100%;
-    min-width: 100%;
 }
 
 #submit_button {
